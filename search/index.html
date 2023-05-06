@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>  Blog |    crazywood</title>
+  <title>   crazywood</title>
   <meta name="description" content="技术与艺术，现实与哲学">
   <!-- 标签页图标 -->
   
@@ -111,57 +111,45 @@
 <div class="body-outer">
   <div class="body-inner">
     
-    
-<section class="img-show-outer">
-    <section class="img-show-inner">
-          
-          
-          <div class="img-show-post">
-            <div class="img-show-post-cover">
-              <span class="lazyload-img-span">
-              <a  href="/2023/05/06/My-Gallery/">
-              
-                
-                <img data-src="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/01.jpg" class="img-show-post-cover-class">
-              
-              </a>
-              </span>
-            </div>
-            <div class="img-show-post-intro">
-             <a  href="/2023/05/06/My-Gallery/">
-            <div class="img-show-post-title animate__animated  animate__fadeInUp">My Gallery</div>
-            </a>
-            <div class="img-show-post-date animate__animated  animate__fadeInUp">May 06 2023 </div>
-            </div>
-          </div>
-          
-         
-          <div class="img-show-post">
-            <div class="img-show-post-cover">
-              <span class="lazyload-img-span">
-              <a  href="/2023/05/06/hello-world/">
-              
-                
-                <img data-src="https://cdn.jsdelivr.net/gh/fushaolei/cdn-white@1.0/cover/02.jpg" class="img-show-post-cover-class">
-              
-              </a>
-              </span>
-            </div>
-            <div class="img-show-post-intro">
-             <a  href="/2023/05/06/hello-world/">
-            <div class="img-show-post-title animate__animated  animate__fadeInUp">Hello World</div>
-            </a>
-            <div class="img-show-post-date animate__animated  animate__fadeInUp">May 06 2023 </div>
-            </div>
-          </div>
-          
-         
-    </section>
-    
-</section>
 
+<article class="post-inner">
+    <div class="post-content-outer">
+      <div class="post-intro">
 
+      </div>
+      <div class="post-content-inner">
+        <div class="post-content-inner-space">
+  
+        </div>
+        <div class="post-content-main animate__animated  animate__fadeInUp">
+            <div class="search">
+                <div class="search-input-outer">
+                    <form>
+                        <input type="text" placeholder="想要搜些什么呢..." id="local-search-input" name="q" results="0">
+                        <button type="submit"><i class="ri-search-line"></i></button>
+                    </form>
+                </div>
+                <div id="local-search-result">
+                    
+                </div>
+            </div>
 
+        </div>
+        <div class="post-content-inner-space">
+        </div>
+     </div>
+    </div>
+  </article>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+
+<script src="/js/search.js"></script>
+
+<script type="text/javascript">      
+    var search_path = "search.xml";
+    var path = "/" + search_path;
+    searchFunc(path, 'local-search-input', 'local-search-result');
+</script>
   </div>
 </div>
 
