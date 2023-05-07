@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>My Gallery</title>
+      <title>Markdown语法介绍与练习</title>
       <link href="/2023/05/06/My-Gallery/"/>
       <url>/2023/05/06/My-Gallery/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div style="text-align:center">    <h1>Markdown入门学习</h1></div><p>        <span class="lazyload-img-span">        <img              data-src="https://markdown-here.com/img/icon256.png" >        </sapn>      </p><p>​                                                              <em>Markdown logo</em></p><h1 style="text-align: center;">这是一个标题</h1><h1>一级标题</h1><p>这是一级标题下的内容。</p><hr style="border: 2px solid red;">]]></content>
       
       
       
